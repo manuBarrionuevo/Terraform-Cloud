@@ -25,25 +25,33 @@ variable "tags" {
 
 variable "sg_ingress_cidr" {
   description = "CIDR for ingress traffic"
-  type = string
+  type        = string
 }
 
 variable "ec2_specs" {
   description = "Parametros de la instancia"
-  type = map(string)
+  type        = map(string)
 }
 
 variable "instancias" {
   description = "Nombres de las instancias"
-  type = list(string)  
+  type        = list(string)
 }
 
 variable "enable_monitoring" {
   description = "Habilita el despliegue de un servidor de monitoreo"
-  type = bool
+  type        = bool
 }
 
 variable "ingres_port_list" {
   description = "Lista de puertos ingress"
-  type = list(number)
+  type        = list(number)
+}
+
+variable "access_key" {
+  
+}
+
+variable "secret_key" {
+  
 }
