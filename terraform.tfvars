@@ -23,4 +23,4 @@ instancias = [ "Apache"]
 
 enable_monitoring = true
 
-ingres_port_list = [ 22,80,443 ]
+ingres_port_list = [ 22,80,443,5432 ]
