@@ -19,7 +19,7 @@ ec2_specs = {
   "instance_type"= "t2.micro"
 }
 
-instancias = [ "apache"]
+instancias = [ "Apache"]
 
 enable_monitoring = true
 
